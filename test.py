@@ -1,3 +1,3 @@
 list=[2,3,1]
-list.sort()
+list.sort(reverser=True)
 print(list)
