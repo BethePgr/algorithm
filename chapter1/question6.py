@@ -2,6 +2,15 @@ import sys
 sys.stdin = open("input.txt","r")
 n = int(input())
 a=list(map(int, input().split()))
+
+"""
+def digit_sum(x):
+    sum=0
+    for i in str(x):
+        sum += int(i)
+    return sum
+"""
+
 def digit_sum(x):
     sum = 0
     while True:
