@@ -1,5 +1,5 @@
 import sys
-sys.stdin = open("input.txt","r")
+#sys.stdin = open("input.txt","r")
 n = int(input())
 # for i in range(n):
 #     s=input()
@@ -27,6 +27,6 @@ for i in range(n):
     s=input()
     s=s.upper()
     if s == s[::-1]:
-        print("YES")
+        print("#%d Yes" %(i+1))
     else:
-        print("NO")
+        print("#"+(i+1) + " NO")
