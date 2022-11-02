@@ -15,12 +15,15 @@ def Count(mid):
         temp -= i
     return count
 
+maxx = max(Music)
 
 while lt <= rt:
     mid = (lt + rt) // 2
-    if Count(mid) > m:
-        lt = mid + 1
-    elif Count(mid) <= m:
+    if mid >= maxx and Count(mid) <= m:
         answer = mid
         rt = mid-1
+    else:
+        lt = mid + 1
 print(answer)
+
+#!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!다시보기!!!!!!!!!!!!!!!!!!!!!!1111
