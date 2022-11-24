@@ -13,5 +13,3 @@ for i in range(len(a)):
             break
 for i in list:
     print(i, end = " ")
-[0 0 0 0 0 0 0 0]
-"5 3 4 0 2 1 1 0"

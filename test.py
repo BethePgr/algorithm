@@ -1,4 +1,2 @@
-list=[2,3,1]
-list.sort(reverse=True)
-print(list)
-print("test")
+a=[1,9]
+print(a.index(max(a)))
